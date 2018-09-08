@@ -9,7 +9,7 @@
 import Foundation
 import QuartzCore
 
-public class LinearGradientLayer: GradientLayer {
+@objcMembers public class LinearGradientLayer: GradientLayer {
     
     public enum Direction {
         case horizontal
