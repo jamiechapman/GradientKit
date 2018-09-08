@@ -12,7 +12,7 @@ public enum GradientType {
     case linear, radial, angle
 }
 
-public class GradientLayer: CALayer {
+@objcMembers public class GradientLayer: CALayer {
 
     public var locations: [CGFloat]? {
         didSet {
